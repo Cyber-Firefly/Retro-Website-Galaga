@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="head">
+    <meta name="description" content="Contact Page">
+    <title>Contact Page</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="./js/custom-js.js"></script>
+    <script src="https://kit.fontawesome.com/8be9f1da93.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="menu-row" id="header"></header>
+    <section class="masthead">
+        <div>
+            <h1>GALAGA - The Game That Flew Us Back to Childhood Memory</h1>
+        </div>
+    </section>
+    <main>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>Address in North America: Bandai Namco Entertainment America, Inc
+                23 Odyssey Irvine, CA 92618. Please note that the company is not open to public. Visitors must have an appointment.</p>
+            <p>For more information please visit <a href="https://www.bandainamcoent.com/contact">https://www.bandainamcoent.com/contact.</a></p>
+            <form method="post" action="somephpfile.php">
+                <p>Please fill out the form below to get in touch with us.</p>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Leave a Message</label>
+                <textarea id="message" name="message" rows="10" maxlength="500"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer id="footer"></footer>
+</body>
+</html>
